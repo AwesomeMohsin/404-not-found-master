@@ -70,3 +70,41 @@ font-family: Montserrat;
 font-size: 14px;
 margin-top: 100px;
 }
+
+/* Mobile Design */
+@media screen and (max-width:576px){
+    header {
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner img {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .banner-content{
+        margin-left: 10px;
+    }
+    .banner-title {
+        font-size: 48px;
+        letter-spacing: -1.68px;
+        margin-bottom: 0px;
+        width: 90%;
+
+    }
+    .banner-description{
+        font-size: 18px;
+        letter-spacing: -0.63px;
+        width: 90%;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
